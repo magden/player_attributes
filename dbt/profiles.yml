@@ -1,0 +1,10 @@
+my_bigquery_profile:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: play-perfect-432018
+      dataset: game_events
+      threads: 1
+      keyfile: C:\Users\97254\Downloads\play-perfect-432018-460eb72182df.json

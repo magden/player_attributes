@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30298cf3-0802-4263-8565-43962c9e958f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/home_assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_service/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/redis_operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt/dbt_project.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt/macros/macros.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt/models/marts/player_attributes/active_days_since_last_purchase.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt/models/marts/player_attributes/avg_price_10.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt/models/marts/player_attributes/country.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt/models/marts/player_attributes/last_weighted_daily_matches_count_10_played_days.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt/models/marts/player_attributes/score_perc_50_last_5_days.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt/models/marts/player_attributes/weighted_matches.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt/models/marts/user_panel.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt/models/staging/staging_events.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt/models/test_access.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbt/profiles.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduler/scheduler.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FastAPI main" />
+        <option value="FastAPI test_main" />
+        <option value="SQL File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2kQrgk7ti0f56Dwq7b2lYzDqHr0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.test_main | #1.executor": "Run",
+    "HTTP Request.test_main | #2.executor": "Run",
+    "Python.api.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/97254/PycharmProjects/fastApiProject/dbt/models/marts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\97254\PycharmProjects\fastApiProject\dbt\models\marts" />
+      <recent name="C:\Users\97254\PycharmProjects\fastApiProject\dbt" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\97254\PycharmProjects\fastApiProject\dbt\macros" />
+      <recent name="C:\Users\97254\PycharmProjects\fastApiProject\dbt\models\marts" />
+      <recent name="C:\Users\97254\PycharmProjects\fastApiProject\dbt\models\marts\user_attributes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.api">
+    <configuration name="Run dbt build" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="build" />
+      <module name="home_assignment" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt debug" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="debug" />
+      <module name="home_assignment" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt list" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="list" />
+      <module name="home_assignment" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt run" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="run" />
+      <module name="home_assignment" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run dbt test" type="DbtRunConfiguration" factoryName="DbtRunConfiguration">
+      <option name="dbtCommand" value="test" />
+      <module name="home_assignment" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_main | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test_main.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test_main | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test_main.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="home_assignment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api_service" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_service/api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="home_assignment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fastApiProject" type="Python.FastAPI">
+      <option name="file" value="$PROJECT_DIR$/main.py" />
+      <module name="home_assignment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.api" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="HTTP Request.test_main | #1" />
+        <item itemvalue="HTTP Request.test_main | #2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.19072.16" />
+        <option value="bundled-python-sdk-8336bb23522e-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.19072.16" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30298cf3-0802-4263-8565-43962c9e958f" name="Changes" comment="" />
+      <created>1723226755748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723226755748</updated>
+      <workItem from="1723226766872" duration="51000" />
+      <workItem from="1723226828546" duration="5418000" />
+      <workItem from="1723401411579" duration="603000" />
+      <workItem from="1723402071026" duration="41021000" />
+      <workItem from="1723501276154" duration="5373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scheduler/scheduler.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/home_assignment$main.coverage" NAME="main Coverage Results" MODIFIED="1723504043695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/home_assignment$api.coverage" NAME="api Coverage Results" MODIFIED="1723505307414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_service" />
+    <SUITE FILE_PATH="coverage/fastApiProject$main.coverage" NAME="main Coverage Results" MODIFIED="1723227046125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

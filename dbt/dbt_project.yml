@@ -1,0 +1,21 @@
+name: 'fastApiProject'
+version: '1.0'
+profile: 'my_bigquery_profile'
+
+model-paths: ["models"]  # Ensure this points to your models directory
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"
+
+
+models:
+  your_project_name:
+    staging_events:
+      materialized: view
+    country:
+      materialized: view
+    avg_price_10:
+      materialized: view  # Store user_panel as a table
+    user_panel:
+      materialized: table  # Store user_panel as a table

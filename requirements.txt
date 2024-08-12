@@ -1,0 +1,9 @@
+fastapi~=0.103.2
+uvicorn~=0.22.0
+dbt-bigquery
+redis~=5.0.8
+apscheduler~=3.10.4
+google-cloud-bigquery
+pandas
+db-dtypes
+PyYAML~=6.0.1
