@@ -7,23 +7,21 @@ It uses a scheduled job to run a dbt pipeline, which populates a user panel in a
 ### Components:
 
 # FastAPI Application (api.py)
-    Purpose: Provides an API endpoint to retrieve specific player attributes from the cache.
-    Endpoint:
-        GET /player/attribute: Fetches a specific attribute for a player based on player_id and attribute_name.
-    Redis Integration:
-    Uses Redis to store and retrieve the user_panel data, ensuring fast access to frequently requested player attributes.
+- Purpose: provides an API endpoint to retrieve specific player attributes from the cache.
+- Endpoint: GET /player/attribute
+  - Fetches a specific attribute for a player based on player_id and attribute_name.
+- Redis Integration: uses Redis to store and retrieve the user_panel data, ensuring fast access to frequently requested player attributes.
 # Scheduler (scheduler.py)
-    Purpose: Schedules a job to run the dbt pipeline every minute and refresh the user panel data in the Redis cache.
-    Functionality:
-    Executes the dbt run command for specified models to populate the user panel.
-    Calls the store_user_panel_in_cache function to update the Redis cache with the latest data.
+- Purpose: schedules a job to run the dbt pipeline every minute and refresh the user panel data in the Redis cache.
+- Functionality: 
+  - executes the dbt run command for specified models to populate the user panel.
+  - calls the store_user_panel_in_cache function to update the Redis cache with the latest data.
 # Redis Operations (redis_operations.py)
-    Purpose: Manages storing and retrieving data from Redis.
-    Functions:
-    store_user_panel_in_cache(): Queries the user_panel from BigQuery and stores it in Redis for caching.
-# DBT Model 
-    Purpose: SQL code that defines how to create the user_panel in BigQuery.
-    Functionality: Joins multiple tables to produce a summary of player attributes, which is stored in the user panel.
+- Purpose: Manages storing and retrieving data from Redis.
+- Functions: store_user_panel_in_cache(): Queries the user_panel from BigQuery and stores it in Redis for caching.
+# DBT Model
+- Purpose: SQL code that defines how to create the user_panel in BigQuery.
+- Functionality: Joins multiple tables to produce a summary of player attributes, which is stored in the user panel.
 
 ### Setup Instructions
 - Install Dependencies:
@@ -48,6 +46,18 @@ http://localhost:8000/player/attribute?player_id=<PLAYER_ID>&attribute_name=<ATT
 
 Data Flow: The scheduler regularly triggers the dbt pipeline to refresh the user panel in BigQuery. After the update, it caches the user panel data in Redis. The FastAPI application reads from the Redis cache to provide quick responses to attribute requests.
 
+#### Second Suggestion: Using Airflow for Task Management
+An alternative approach is to utilize an existing task management platform like Apache Airflow for managing the data pipeline.
+
+Airflow offers effective task scheduling with complex workflows and dependencies, supports parallel processing for quicker attribute creation, and provides an easy-to-use interface for monitoring task execution and logs, making debugging and maintenance simpler.
+- DAG Creation: Create a DAG for each attribute that needs to be calculated. These DAGs are should be designed to run in parallel, allowing for efficient processing.
+
+- Attribute Calculation: Each DAG executes its tasks to calculate the respective attributes concurrently.
+
+- Join Task: Once all attribute calculation tasks are complete, a join task is triggered to combine the results and create the user_panel in BigQuery.
+
+- Cache Update: The final DAG updates the Redis cache with the latest user_panel data, ensuring that the cache is always in sync with the most recent calculations.
+
 ## Next Steps
 
 1. **Add Tests**: Implement unit and integration tests to ensure the reliability and correctness of the API and caching mechanisms.
@@ -60,8 +70,6 @@ Data Flow: The scheduler regularly triggers the dbt pipeline to refresh the user
 
 5. **Error Handling**: Enhance error handling in the API and scheduling to provide more informative responses and improve robustness.
 
-6. **User Authentication**: Consider adding authentication to the API to secure access to the player attributes.
+6**Read Data Using Executors**: Implement functionality to read data from the user_panel using executors and bulk requests, with retry logic for failed requests.
 
-7. **Read Data Using Executors**: Implement functionality to read data from the user_panel using executors and bulk requests, with retry logic for failed requests.
-
-8. **Containerize the Project**: Create Docker containers for the API and scheduler to simplify deployment and scaling.
+7**Containerize the Project**: Create Docker containers for the API and scheduler to simplify deployment and scaling.
