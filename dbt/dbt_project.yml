@@ -2,7 +2,7 @@ name: 'fastApiProject'
 version: '1.0'
 profile: 'my_bigquery_profile'
 
-model-paths: ["models"]  # Ensure this points to your models directory
+model-paths: ["models"]
 target-path: "target"
 clean-targets:
   - "target"
@@ -16,6 +16,6 @@ models:
     country:
       materialized: view
     avg_price_10:
-      materialized: view  # Store user_panel as a table
+      materialized: view
     user_panel:
-      materialized: table  # Store user_panel as a table
+      materialized: table

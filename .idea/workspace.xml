@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30298cf3-0802-4263-8565-43962c9e958f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/home_assignment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_service/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cache/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cache/redis_operations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt/dbt_project.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt/macros/macros.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt/models/marts/player_attributes/active_days_since_last_purchase.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt/models/marts/player_attributes/avg_price_10.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt/models/marts/player_attributes/country.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt/models/marts/player_attributes/last_weighted_daily_matches_count_10_played_days.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt/models/marts/player_attributes/score_perc_50_last_5_days.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt/models/marts/player_attributes/weighted_matches.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt/models/marts/user_panel.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt/models/staging/staging_events.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt/models/test_access.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbt/profiles.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/scheduler.py" afterDir="false" />
+    <list default="true" id="30298cf3-0802-4263-8565-43962c9e958f" name="Changes" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/dbt/dbt_project.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt/dbt_project.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "magden"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/magden/player_attributes",
+    "accountId": "aea9fbdb-ac73-49c3-a26f-fd972bd1d051"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -208,12 +197,25 @@
       <workItem from="1723226828546" duration="5418000" />
       <workItem from="1723401411579" duration="603000" />
       <workItem from="1723402071026" duration="41021000" />
-      <workItem from="1723501276154" duration="5373000" />
+      <workItem from="1723501276154" duration="5854000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1723506872865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723506872865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
